@@ -11,8 +11,10 @@ try:
 
 except NameError as error1:
     print("네임 에러", error1)
+
 except UnicodeError as error2:
     print("유니코드 에러", error2)
+
 except Exception as error3:
     print("오류", error3)
 
@@ -22,11 +24,11 @@ else:
 
 jasonData1 ={
         "empid": 12345678,
-        "name" : "박상철,
+        "name" : "박상철",
         "info" : [
             {
-                "date1": "2022-01-21,
-                "home": "하남시"
+                "date1": "2022-01-21",
+                "address": "하남시"
             },
             {
                 "dep": "개발",
